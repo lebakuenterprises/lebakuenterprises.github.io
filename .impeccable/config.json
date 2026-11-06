@@ -1,0 +1,23 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "montserrat",
+        "createdAt": "2026-11-05T07:32:15.073Z",
+        "reason": "Claude triage: Montserrat is the site's pre-existing brand font in styles.css (--pico-font-family), not a new choice"
+      },
+      {
+        "rule": "aphoristic-cadence",
+        "value": "*",
+        "files": [
+          "aienglishguru/privacy/index.html"
+        ],
+        "createdAt": "2026-11-05T07:32:15.361Z",
+        "reason": "Claude triage: legal policy copy; short 'No ads.' lines restate the user's brief, not marketing voice"
+      }
+    ]
+  }
+}
